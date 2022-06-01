@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('scm') {
             steps{
-            git branch: 'main', url: 'https://github.com/Azure-Samples/js-e2e-express-server.git'
+            git branch: 'main', url: 'https://github.com/pranaygoud2020/js-e2e-express-server.git'
      }
         }
         stage('install npm and test') {
